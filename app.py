@@ -11,7 +11,7 @@ st.set_page_config(page_title="Customer Analytics Dashboard", page_icon="📊", 
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("customer_analytics_master.csv")
+    df = pd.read_csv("customer_analytics_sample.csv")
     if "order_purchase_timestamp" in df.columns:
         df["order_purchase_timestamp"] = pd.to_datetime(df["order_purchase_timestamp"], errors="coerce")
     return df
