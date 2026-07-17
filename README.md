@@ -211,28 +211,6 @@ Highlights customers with the highest purchase frequency.
 
 ---
 
-# 💡 Key Business Insights
-
-- Revenue exhibits noticeable monthly fluctuations, indicating seasonal demand patterns.
-- A small number of product categories contribute a large share of overall revenue.
-- Credit Card is the dominant customer payment method.
-- Revenue is concentrated within a limited number of customer states.
-- A relatively small group of sellers generates a significant percentage of total sales.
-- High-value customers contribute disproportionately to total revenue.
-- Repeat customers represent valuable opportunities for loyalty and retention initiatives.
-
----
-
-# ⭐ Business Story
-
-An e-commerce company wanted to better understand customer purchasing behavior and identify the key drivers of revenue growth.
-
-Using SQL and Python, raw transactional data was cleaned, transformed, and analyzed to uncover business insights. The processed data was then presented through an interactive Streamlit dashboard that allows stakeholders to monitor KPIs, explore sales trends, evaluate seller performance, analyze customer behavior, and identify high-performing products.
-
-This project demonstrates how raw business data can be converted into meaningful insights that support informed decision-making.
-
----
-
 # 🖥️ Dashboard Preview
 
 ## Python EDA Dashboard
@@ -264,6 +242,73 @@ This project is based on the **Brazilian E-Commerce Public Dataset by Olist**.
 The original dataset is not included in this repository because it exceeds GitHub's file size limit.
 
 A sample dataset is included for demonstration purposes.
+
+---
+
+# 💡 Business Insights
+
+- Revenue follows a clear seasonal trend, reaching its highest level around May and remaining relatively strong through August before declining sharply in September.
+
+- A small number of product categories contribute a significant share of total revenue, with **cama_mesa_banho**, **beleza_saude**, and **informatica_acessorios** leading sales.
+
+- Customer purchases are highly concentrated geographically, with **São Paulo (SP)** generating substantially more revenue than any other state, followed by Rio de Janeiro (RJ) and Minas Gerais (MG).
+
+- **Credit Card** is the preferred payment method, accounting for approximately **74%** of all transactions, indicating a strong customer preference for card-based payments.
+
+- Revenue is concentrated among a relatively small number of sellers, suggesting that top-performing sellers have a significant impact on overall business performance.
+
+- A limited number of customers contribute a disproportionately high share of total revenue, highlighting the importance of customer retention and loyalty strategies.
+
+- The repeat customer analysis indicates that most customers purchase only a few times, suggesting an opportunity to improve repeat purchases through personalized marketing, loyalty programs, and targeted promotions.
+
+- The interactive dashboard enables users to dynamically filter customer states, payment methods, and product categories, allowing business stakeholders to explore sales performance across different dimensions in real time.
+
+---
+
+# ⭐ Business Story (STAR Method)
+
+## Situation
+
+An e-commerce company wanted to better understand customer purchasing behavior, sales performance, payment preferences, and regional demand. Business stakeholders needed a centralized dashboard to monitor key performance indicators and identify revenue-driving customers, sellers, and product categories.
+
+---
+
+## Task
+
+Develop an end-to-end Customer Analytics solution capable of:
+
+- Cleaning and preparing transactional data
+- Performing SQL-based business analysis
+- Conducting exploratory data analysis using Python
+- Building an interactive Streamlit dashboard
+- Presenting actionable business insights for decision-makers
+
+---
+
+## Action
+
+- Cleaned and transformed multiple e-commerce datasets using **Python (Pandas)**.
+- Performed business analysis using **MySQL**, including customer, seller, product, revenue, payment, and order analysis.
+- Engineered additional features to support reporting and visualization.
+- Created interactive visualizations using **Plotly**.
+- Built a responsive **Streamlit Dashboard** with sidebar filters for customer state, payment method, and product category.
+- Designed KPI cards, revenue trends, product performance, seller rankings, customer analysis, and business insight sections for decision-makers.
+
+---
+
+## Result
+
+The final dashboard provides a centralized view of business performance, enabling stakeholders to:
+
+- Monitor monthly revenue trends.
+- Identify top-performing product categories.
+- Analyze regional sales performance.
+- Understand customer payment preferences.
+- Track top sellers and high-value customers.
+- Explore repeat customer behavior.
+- Filter business metrics interactively for faster decision-making.
+
+The project demonstrates a complete end-to-end Customer Analytics workflow using SQL, Python, Plotly, and Streamlit while showcasing practical business intelligence and dashboard development skills.
 
 ---
 
