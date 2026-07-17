@@ -243,8 +243,6 @@ This project demonstrates how raw business data can be converted into meaningful
 
 ## Streamlit Dashboard
 
-![Dashboard](Images/streamlit_dashboard.png)
-
 ![Dashboard](Images/streamlit_dashboard%20(1).png)
 
 ![Dashboard](Images/streamlit_dashboard%20(2).png)
