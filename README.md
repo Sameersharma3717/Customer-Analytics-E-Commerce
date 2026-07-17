@@ -251,6 +251,12 @@ This project demonstrates how raw business data can be converted into meaningful
 
 ---
 
+# 🌐 Live Dashboard
+
+👉 [https://your-dashboard.streamlit.app](https://customer-analytics-e-commerce-mowds66gb2blbhitnu5pva.streamlit.app/)
+
+---
+
 # 📂 Dataset
 
 This project is based on the **Brazilian E-Commerce Public Dataset by Olist**.
